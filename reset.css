@@ -1,0 +1,24 @@
+/* Zera margens, preenchimentos e bordas de todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove o estilo de lista (pontos) dos elementos ul e ol */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove sublinhado de links e herda a cor */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Garante que imagens não passem do tamanho do container */
+img {
+  max-width: 100%;
+  display: block;
+}
+
